@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>期末專題
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            /*消除網頁邊框*/
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            width: 100%;
+        }
+        
+        @media only screen and (min-width:600px) {
+            .col-s-1 {
+                width: 8.33%;
+            }
+            .col-s-2 {
+                width: 16.66%;
+            }
+            .col-s-3 {
+                width: 25%;
+            }
+            .col-s-4 {
+                width: 33.33%;
+            }
+            .col-s-5 {
+                width: 41.66%;
+            }
+            .col-s-6 {
+                width: 50%;
+            }
+            .col-s-7 {
+                width: 58.33%;
+            }
+            .col-s-8 {
+                width: 66.66%;
+            }
+            .col-s-9 {
+                width: 75%;
+            }
+            .col-s-10 {
+                width: 83.33%;
+            }
+            .col-s-11 {
+                width: 91.66%;
+            }
+            .col-s-12 {
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (min-width: 768px) {
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+        }
+        
+        .logo {
+            width: 100%;
+        }
+        
+        .header {
+            background-color: rgb(0, 0, 0);
+            color: #ffffff;
+            padding: 15px;
+        }
+        
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: rgb(63, 177, 253);
+            color: rgb(252, 0, 0);
+            text-align: center;
+        }
+        
+        .footer {
+            background-color: #00f5fd;
+            color: #fa0202;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .aside {
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        body {
+            background-color: #333333;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            background-color: rgb(221, 255, 31);
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+        .column {
+            float: left;
+            width: 25%;
+            padding: 20px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        @media screen and (max-width: 1100px) {
+            .column {
+                width: 50%;
+            }
+            h1 {
+                text-align: center;
+            }
+            .footer {
+                width: 100%;
+            }
+            .header {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+            h1 {
+                text-align: center;
+            }
+            .footer {
+                width: 100%;
+            }
+            .header {
+                width: 100%;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="header ">
+        <h1>Minecraft</h1>
+    </div>
+
+
+    <div class="row ">
+        <div class="col-3 col-s-3 menu ">
+            <ul>
+                <li><a href="https://minecraft-zh.gamepedia.com/index.php?title=%E4%B8%96%E7%95%8C%E7%B1%BB%E5%9E%8B&variant=zh-tw">世界類型</a></li>
+                <li><a href="https://minecraft-zh.gamepedia.com/index.php?title=%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BB&variant=zh-tw">生態域類型</a></li>
+                <li><a href="https://minecraft-zh.gamepedia.com/index.php?title=%E7%94%9F%E7%89%A9&variant=zh-tw">生物</a></li>
+                <li><a href="https://minecraft-zh.gamepedia.com/index.php?title=%E5%90%88%E6%88%90&variant=zh-tw">合成表</a></li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9 ">
+            <img src="https://p2.bahamut.com.tw/B/2KU/40/866439bdebd5a805d705fe5d5d174t45.JPG" title="Minecraft">
+            <h2 style="color: darkgreen; background-color: rgba(255, 222, 112, 0.541);">Minecraft是一款沙盒式建造遊戲，締造者為Mojang Studios創始人馬庫斯·佩爾松，其靈感源於《無盡礦工》､《矮人要塞》和《地下城守護者》。現首席開發者為延斯·伯根斯坦。玩家可以在遊戲中的三維空間裡創造和破壞林林總總的方塊，甚至在多人伺服器與單人世界中體驗不同的遊戲模式，打造精妙絕倫的建築物，創造物和藝術品。時至今日，Minecraft的遊戲平台已囊括了行動裝置和遊戲主機。 Minecraft著重於讓玩家去探索、交互、並且改變一個由一立方米大小的方塊動態生成的地圖。除了方塊以外，環境單體還包括植物、生物與物品。遊戲裡的各種活動包括採集礦石、與敵對生物戰鬥、合成新的方塊與收集各種在遊戲中找到的資源的工具。遊戲中的無限制模式讓玩家在各種多人遊戲伺服器或他們的單人模式中進行創造建築物、作品與藝術創作。其他功能包括邏輯運算與遠程動作的紅石電路、礦車及軌道，以及稱之為「地獄」的神秘世界。最終，可以選擇前往一個叫做「終末之界」的維度冒險，並擊敗終界龍。</h2>
+
+        </div>
+
+
+        <div class="col-1 col-s-3 menu  ">
+            <div class="aside ">
+                <ul>
+                    <li><a href="https://www.minecraft.net/zh-hant/ ">Minecraft官方網站</a></li>
+                    <li><a href="https://forum.gamer.com.tw/A.php?bsn=18673 ">Minecraft巴哈姆特</a></li>
+                    <li><a href="https://www.youtube.com/results?search_query=minecraft">Minecraft-YouTube</a></li>
+                    <li><a href="https://www.twitch.tv/directory/game/Minecraft">Minecraft-Twitch</a></li>
+                    <li><a href="https://my.minecraft.net/zh-hant/store/minecraft/#register">Minecraft正版購買</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer ">
+        <h1>請支持正版～</h1>
+    </div>
+</body>
+
+</html>
